@@ -8,3 +8,13 @@ body {
     width: 100vw;
     height: 100vh;
     background-image: url("https://wallpaperstock.net/dados-negro-wallpapers_31877_2560x1600.jpg");
+    color:white;
+}
+
+#container {
+    display: none;
+}
+
+#container.visible {
+
+}
