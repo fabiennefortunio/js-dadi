@@ -1,4 +1,4 @@
-// creare due dadi vince il risultato maggiore di 10..
+// creare due variabili vince il risultato maggiore di 10..
 
 var num = Math.random();
 var num2 = num * 6;
