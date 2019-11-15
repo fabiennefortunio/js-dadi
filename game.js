@@ -9,20 +9,18 @@ Punto 3: messaggio in screen "Hai vinto" Hai perso"
 */
 
 var num = prompt("Entry a number");
-var num2 =(Math.floor(Math.random() * 5)+1);
-//alert(num2); //come cambiare la scritta della alerta
+var num2 =(Math.floor(Math.random() * 6)+1);
 
 if (num > num2){
     console.log("hai vinto");
-    document.getElementById('won');
-    element.setAttribute("class", "visible;");
+    document.getElementById('won').setAttribute("class", "visible;");
     if(isNaN(num)) {
     // la variabile num non contiene un numero
     console.log("non è un numero");
-
+}
 
 } else {
     console.log("hai perso");
-    document.getElementById('lose');
-    element.setAttribute("class", "visible");
-}
+    document.getElementById('lose').setAttribute("class", "visible");
+
+};
