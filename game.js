@@ -17,10 +17,11 @@ if (num > num2){
     if(isNaN(num)) {
     // la variabile num non contiene un numero
     console.log("non è un numero");
+    document.getElementById('wrong').setAttribute("class", "visible;");
 }
 
 } else {
     console.log("hai perso");
     document.getElementById('lose').setAttribute("class", "visible");
 
-};
+}
