@@ -6,6 +6,11 @@ Stampare un messaggio per dire all'utente se ha vinto oppure no (il numero più 
 var num2 = num * 6;
 var dadi = Math.ceil (num2);
 alert(dadi);*/
-var question = prompt('Entry a number');
-var num = Math.random();
+var num = prompt('Entry a number');
 var num2 = num * 6;
+if num > num2 {
+    console.log (you won)
+    
+} else {
+    console.log(you lose)
+}
